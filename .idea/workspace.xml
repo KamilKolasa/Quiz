@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="0_Zad_Quiz:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b61d5a67-1346-4247-95a6-12fd2a3da087" name="Default Changelist" comment="Wstepnie skonczona aplikacja">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5fe518db-5212-4546-9840-cf86cc2cabbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KopiaZapasowaStalychZdjec/background.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KopiaZapasowaStalychZdjec/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KopiaZapasowaStalychZdjec/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KopiaZapasowaStalychZdjec/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KopiaZapasowaStalychZdjec/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KopiaZapasowaStalychZdjec/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/configuration/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/configuration/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/controllers/ConfigurationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/controllers/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/controllers/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/ExceptionCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/ExceptionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/LevelPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/AnswerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/GameDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/LevelDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/QuestionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/QuestionFilterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/QuestionsWithAnswersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/QuizDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/model/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/AnswerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/GameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/LevelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/QuestionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/QuizRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/generic/AbstractGenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/generic/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/impl/AnswerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/impl/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/impl/GameRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/impl/LevelRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/impl/QuestionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/impl/QuizRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/AnswerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/JSONService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/LevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/ModelMapperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/QuizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/configuration/all_questions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/configuration/details_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/configuration/edit_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/configuration/insert_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/configuration/modify_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/configuration/modify_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game/choose_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game/end_game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game/history_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game/insert_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game/modify_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game/quiz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/game/table_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/file/fileQuestion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/filefileQuestion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/background.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img2019-04-09-15-18-57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/imgnull" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/META-INF/0_Zad_Quiz.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/configuration/AppConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/configuration/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/configuration/JpaConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/controllers/ConfigurationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/controllers/ExceptionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/controllers/GameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/controllers/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/exceptions/ExceptionCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/exceptions/ExceptionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/exceptions/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Answer$AnswerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Category$CategoryBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Game$GameBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Level$LevelBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Level.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/LevelPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Question$QuestionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Quiz$QuizBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/AnswerDto$AnswerDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/AnswerDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/CategoryDto$CategoryDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/CategoryDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/GameDto$GameDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/GameDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/LevelDto$LevelDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/LevelDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuestionDto$QuestionDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuestionDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuestionFilterDto$QuestionFilterDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuestionFilterDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuestionsWithAnswersDto$QuestionsWithAnswersDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuestionsWithAnswersDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuizDto$QuizDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/QuizDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/model/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/AnswerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/GameRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/LevelRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/QuestionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/QuizRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/generic/AbstractGenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/generic/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/impl/AnswerRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/impl/CategoryRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/impl/GameRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/impl/LevelRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/impl/QuestionRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/impl/QuizRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/repository/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/AnswerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/GameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/JSONService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/LevelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/ModelMapperService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/QuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/QuizService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/classes/com/app/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/attoparser-2.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.6.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.17.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.2.17.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.9.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.22.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.1.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-java8time-3.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-spring4-3.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/unbescape-1.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/configuration/all_questions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/configuration/details_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/configuration/edit_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/configuration/insert_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/configuration/modify_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/configuration/modify_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/game/choose_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/game/end_game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/game/history_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/game/insert_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/game/modify_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/game/quiz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/game/table_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/WEB-INF/views/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/css/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/file/fileQuestion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/filefileQuestion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/img/background.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/img/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/img/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/img/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/img/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/img/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/img2019-04-09-15-18-57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/0_Zad_Quiz-1.0-SNAPSHOT/static/imgnull" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/configuration/AppConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/configuration/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/configuration/JpaConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/controllers/ConfigurationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/controllers/ExceptionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/controllers/GameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/controllers/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/exceptions/ExceptionCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/exceptions/ExceptionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/exceptions/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Answer$AnswerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Category$CategoryBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Game$GameBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Level$LevelBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Level.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/LevelPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Question$QuestionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Quiz$QuizBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/AnswerDto$AnswerDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/AnswerDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/CategoryDto$CategoryDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/CategoryDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/GameDto$GameDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/GameDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/LevelDto$LevelDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/LevelDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuestionDto$QuestionDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuestionDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuestionFilterDto$QuestionFilterDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuestionFilterDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuestionsWithAnswersDto$QuestionsWithAnswersDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuestionsWithAnswersDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuizDto$QuizDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/QuizDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/model/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/AnswerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/GameRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/LevelRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/QuestionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/QuizRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/generic/AbstractGenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/generic/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/impl/AnswerRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/impl/CategoryRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/impl/GameRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/impl/LevelRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/impl/QuestionRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/impl/QuizRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/repository/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/AnswerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/GameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/JSONService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/LevelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/ModelMapperService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/QuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/QuizService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/service/UserService.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="quiz_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="quiz_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="quiz_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="quiz_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/controllers/ConfigurationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1248">
+              <caret line="92" column="79" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/QuestionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1072">
+              <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/generic/AbstractGenericDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/model/Category.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/FileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/configuration/AppConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="848">
+              <caret line="70" column="117" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>answer</find>
+      <find>----</find>
+      <find>---</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/configuration/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/configuration/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/configuration/JpaConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/model/dto/QuestionDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/exceptions/ExceptionInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/JSONService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/repository/CategoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/repository/AnswerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/repository/generic/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/repository/generic/AbstractGenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/repository/QuestionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/repository/impl/LevelRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/ModelMapperService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/repository/impl/CategoryRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/QuizService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/AnswerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/LevelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/GameService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/controllers/ConfigurationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/service/FileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/model/Category.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0_Zad_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0_Zad_Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554203671509" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cognifide" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.app.service" />
+      <recent name="com.app.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\S-Programowanie\IntelliJ IDEA\Projekty\0_Zad_Quiz\src\main\java\com\app\controllers" />
+      <recent name="D:\S-Programowanie\IntelliJ IDEA\Projekty\0_Zad_Quiz\src\main\java\com\app\service" />
+      <recent name="D:\S-Programowanie\IntelliJ IDEA\Projekty\0_Zad_Quiz\src\main\java\com\app\repository\impl" />
+      <recent name="D:\S-Programowanie\IntelliJ IDEA\Projekty\0_Zad_Quiz\src\main\java\com\app\repository" />
+      <recent name="D:\S-Programowanie\IntelliJ IDEA\Projekty\0_Zad_Quiz\src\main\java\com\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="QuizApp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/0_Zad_Quiz_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="0_Zad_Quiz:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/0_Zad_Quiz_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_0_Zad_Quiz" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50473" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="0_Zad_Quiz:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b61d5a67-1346-4247-95a6-12fd2a3da087" name="Default Changelist" comment="" />
+      <created>1553012902121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553012902121</updated>
+      <workItem from="1553012905093" duration="9000" />
+      <workItem from="1553012938293" duration="2873000" />
+      <workItem from="1553031304483" duration="347000" />
+      <workItem from="1553035136219" duration="547000" />
+      <workItem from="1553096263371" duration="7663000" />
+      <workItem from="1553503615694" duration="39000" />
+      <workItem from="1553509260810" duration="557000" />
+      <workItem from="1553587404762" duration="595000" />
+      <workItem from="1553596348596" duration="45000" />
+      <workItem from="1553602416704" duration="598000" />
+      <workItem from="1553603320566" duration="25000" />
+      <workItem from="1553888055530" duration="693000" />
+      <workItem from="1554046814756" duration="147000" />
+      <workItem from="1554202797151" duration="967000" />
+      <workItem from="1554813439434" duration="4857000" />
+      <workItem from="1555176199444" duration="477000" />
+      <workItem from="1555252204364" duration="619000" />
+      <workItem from="1555428027603" duration="647000" />
+      <workItem from="1555428731061" duration="207000" />
+      <workItem from="1555429613075" duration="659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22571000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.29637527" />
+      <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.26066098" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.19888888" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.26444444" />
+      <window_info anchor="bottom" id="Database Console" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.14712153" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Wstepnie skonczona aplikacja" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wstepnie skonczona aplikacja" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/model/dto/AnswerDto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/model/dto/QuestionDto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/model/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/model/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5fe518db-5212-4546-9840-cf86cc2cabbc/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/exceptions/ExceptionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/exceptions/ExceptionCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/QuizRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/QuestionRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/LevelRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/impl/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/impl/GameRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/impl/QuizRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/impl/AnswerRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/ModelMapperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/generic/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/impl/QuestionRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/impl/LevelRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/AnswerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/QuizService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/GameService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/AnswerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/5fe518db-5212-4546-9840-cf86cc2cabbc.SCHEMA:quiz_db">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>5fe518db-5212-4546-9840-cf86cc2cabbc.SCHEMA:quiz_db</OriginalElement>
+          <nodes>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.answer</node>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.hibernate_sequence</node>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.category</node>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.quiz</node>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.user</node>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.games</node>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.question</node>
+            <node x="" y="">5fe518db-5212-4546-9840-cf86cc2cabbc.TABLE:quiz_db.level</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8679245283018868" x="256.0" y="308.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/CategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/img/background.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/filefileQuestion.json" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/exceptions/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/impl/CategoryRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/LevelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/controllers/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/JSONService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/configuration/JpaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/configuration/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/controllers/ExceptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/background.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://5fe518db-5212-4546-9840-cf86cc2cabbc/schema/quiz_db/table/question">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/controllers/ConfigurationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="92" column="79" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/repository/generic/AbstractGenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/configuration/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="70" column="117" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/model/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
